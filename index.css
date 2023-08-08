@@ -79,16 +79,18 @@ body {
         width: 100%;
         transition: 0.5s;
         transform: translateY(250px);
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 700;
 }
 
 .card:hover .content .details {
         transform: translateY(-40px);
 }
-
+h2{
+        font-size: 1.3rem;
+}
 .content .details p {
-        font-size: 1.1rem;
+        font-size: 1rem;
         line-height: 20px;
         font-weight: 500;
         padding: 0px 10px;
@@ -96,10 +98,12 @@ body {
 }
 
 .data {
-        margin-bottom: -50px;
+        margin-bottom: -40px;
 }
-
-@media screen and (max-width: 700px) {
+.content .details .profile{
+        padding-bottom: 20px;
+}
+@media screen and (max-width: 300px) {
         .card {
                 width: 300px;
         }
@@ -128,7 +132,7 @@ body {
                 ;
         }
 
-        .content .details h3 {
+        .content .details .data h3 {
                 font-size: 1rem;
                 padding-top: 40px;
                 padding-bottom: 20px;
@@ -152,9 +156,9 @@ body {
         }
 }
 
-.content .details h3 {
-        font-size: 1.7rem;
-        padding-top: 40px;
+.content .details .data h3 {
+        font-size: 1.3rem;
+        padding-top: 30px;
         padding-bottom: 20px;
 }
 
@@ -175,6 +179,7 @@ ul {
 ul li {
         display: flex;
         align-items: center;
+        font-size: .9rem;
 }
 
 ul li::before {
