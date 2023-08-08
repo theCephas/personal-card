@@ -25,12 +25,12 @@ body {
         border-radius: 20px;
         box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
         backdrop-filter: blur(6px);
-        transition: 0.3s;
+        transition: all 0.3s ease;
         font-family: 'Poppins', sans-serif;
 }
 
 .card:hover {
-        height: 500px;
+        height: 520px;
 
 }
 
@@ -47,7 +47,7 @@ body {
         background: #fff;
         box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
         overflow: hidden;
-        transition: 0.3s;
+        transition: all 0.3s ease;
 }
 
 .card:hover .imgBx {
@@ -77,7 +77,7 @@ body {
 .content .details {
         text-align: center;
         width: 100%;
-        transition: 0.3s;
+        transition: all 0.3s ease;
         transform: translateY(250px);
         font-weight: 700;
 }
@@ -97,9 +97,14 @@ h2{
 }
 
 .data {
-        margin-bottom: -40px;
+        margin-bottom: -20px;
 }
 .content .details .profile{
+        padding-bottom: 20px;
+}
+.content .details .data> h3 {
+        font-size: 1.3rem;
+        padding-top: 20px;
         padding-bottom: 20px;
 }
 @media screen and (max-width: 700px) {
@@ -119,9 +124,9 @@ h2{
         .content .details .profile>p {
                 font-size: .8rem;
         }
-
+        
         .card:hover .content .details {
-                transform: translateY(-16px);
+                transform: translateY(-40px);
         }
 
         .content .details p {
@@ -134,7 +139,7 @@ h2{
         }
 
         .content .details .data >h3 {
-                font-size: 1rem;
+                font-size: .9rem;
                 padding-top: 20px;
                 padding-bottom: 20px;
         }
@@ -157,11 +162,7 @@ h2{
         }
 }
 
-.content .details .data h3 {
-        font-size: 1.3rem;
-        padding-top: 30px;
-        padding-bottom: 20px;
-}
+
 
 .lists {
         padding: 0px 30px;
