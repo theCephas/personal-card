@@ -83,7 +83,7 @@ body {
 }
 
 .card:hover .content .details {
-        transform: translateY(-40px);
+        transform: translateY(-30px);
 }
 h2{
         font-size: 1.3rem;
@@ -107,16 +107,19 @@ h2{
         padding-top: 20px;
         padding-bottom: 20px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
         .card {
                 width: 300px;
         }
         .card:hover{
                 height: 500px;
         }
+        .content .details{
+                transform: translateY(230px);
+        }
         h2 {
                 padding-bottom: 6px;
-                font-size: 1.3rem;
+                font-size: 1.2rem;
         }
         .content.details.data {
                 margin-bottom: -20px;
@@ -139,8 +142,8 @@ h2{
         }
 
         .content .details .data >h3 {
-                font-size: .9rem;
-                padding-top: 20px;
+                font-size: 1rem;
+                padding-top: 25px;
                 padding-bottom: 20px;
         }
 
