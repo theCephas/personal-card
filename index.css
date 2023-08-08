@@ -25,7 +25,7 @@ body {
         border-radius: 20px;
         box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
         backdrop-filter: blur(6px);
-        transition: 0.5s;
+        transition: 0.3s;
         font-family: 'Poppins', sans-serif;
 }
 
@@ -47,7 +47,7 @@ body {
         background: #fff;
         box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
         overflow: hidden;
-        transition: 0.5s;
+        transition: 0.3s;
 }
 
 .card:hover .imgBx {
@@ -77,9 +77,8 @@ body {
 .content .details {
         text-align: center;
         width: 100%;
-        transition: 0.5s;
+        transition: 0.3s;
         transform: translateY(250px);
-        font-size: 1rem;
         font-weight: 700;
 }
 
@@ -114,7 +113,9 @@ h2{
                 padding-bottom: 6px;
                 font-size: 1.3rem;
         }
-
+        .content.details.data {
+                margin-bottom: -20px;
+        }
         .content .details .profile>p {
                 font-size: .8rem;
         }
@@ -129,12 +130,12 @@ h2{
 
         .content .details p {
                 padding: 0px 0px;
-                ;
+                
         }
 
-        .content .details .data h3 {
+        .content .details .data >h3 {
                 font-size: 1rem;
-                padding-top: 40px;
+                padding-top: 20px;
                 padding-bottom: 20px;
         }
 
