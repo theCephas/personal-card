@@ -7,38 +7,33 @@
 body {
         background-color: #050001;
         background-image: url("https://transparenttextures.com/patterns/45-degree-fabric-light.png");
-        /* background-color: #e6c700;
-        background-image: url("https://transparenttextures.com/patterns/3px-tile.png"); */
-        /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
+ }
 
 .card {
-        /* position: relative; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 350px;
         height: 190px;
+        color: white;
         position: absolute;
         top: 55%;
-        left:50%;
+        left: 50%;
         transform: translate(-50%, -50%);
         border: 0px solid rgba(255, 255, 255, .25);
         border-radius: 20px;
-        /* background-color: rgba(255, 255, 255, 0.45); */
-        /* background: linear-gradient(71deg, #080509, #1a171c, #080509);
-  background-clip: padding-box; */
         box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
         backdrop-filter: blur(6px);
         transition: 0.5s;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Poppins', sans-serif;
 }
 
 .card:hover {
         height: 485px;
-        
+
 }
+
 .imgBx {
         position: absolute;
         left: 50%;
@@ -89,94 +84,121 @@ body {
 }
 
 .card:hover .content .details {
-        transform: translateY(-25px);
+        transform: translateY(-40px);
 }
 
 .content .details p {
         font-size: 1.1rem;
         line-height: 20px;
         font-weight: 500;
-        padding: 0px 30px;
+        padding: 0px 10px;
         color: rgba(255, 255, 255, .6);
 }
-.data{
-        margin-bottom: -25px;
+
+.data {
+        margin-bottom: -50px;
 }
+
 @media screen and (max-width: 370px) {
-        .card{
+        .card {
                 width: 300px;
         }
-        h2{
+
+        h2 {
                 padding-bottom: 6px;
+                font-size: 1.3rem;
         }
+
+        .content .details .profile>p {
+                font-size: 1rem;
+        }
+
         .card:hover .content .details {
-                transform: translateY(-18px);
+                transform: translateY(-16px);
         }
-        .content .details p{
+
+        .content .details p {
                 line-height: 15px;
         }
-        
+
+        .content .details p {
+                padding: 0px 0px;
+                ;
+        }
+
+        .content .details h3 {
+                font-size: 1.2rem;
+                padding-top: 40px;
+                padding-bottom: 20px;
+        }
+
+        .socials {
+                margin-bottom: 40px;
+        }
+
+        .data {
+                margin-bottom: -48px;
+        }
+
+        ul li {
+                font-size: 1rem;
+        }
+
+        .links>.logos {
+                width: 20px;
+                height: 20px;
+        }
 }
-h3 {
+
+.content .details h3 {
         font-size: 1.7rem;
-        padding-top: 20px;
+        padding-top: 40px;
         padding-bottom: 20px;
 }
 
 .lists {
         padding: 0px 30px;
-        line-height: 35px;
+        line-height: 30px;
         text-align: left;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        /* Center vertically within the flex container */
 }
 
 ul {
         list-style: none;
         padding-left: 0;
-        /* Remove default padding */
 }
 
 ul li {
         display: flex;
-        /* Align the list items horizontally */
         align-items: center;
-        /* Center vertically within each list item */
 }
 
 ul li::before {
         content: "";
         display: inline-block;
         width: 20px;
-        /* Adjust this value as needed */
         height: 20px;
-        /* Adjust this value as needed */
         background-image: url("./images/checkmark-circle-outline-svgrepo-com.svg");
         background-repeat: no-repeat;
         background-position: 0 50%;
         margin-right: 10px;
-        /* Adjust this value as needed */
 }
 
-
-.socials{
+.socials {
         position: relative;
         margin-top: 20px;
         border-top: solid 1px;
         padding-left: 0;
         padding-right: 0;
 }
-/* .socials>p{
-        position: absolute;
-        margin-top: -10px;
-} */
+
 .links {
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         padding: 0px 30px;
 }
