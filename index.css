@@ -30,7 +30,7 @@ body {
 }
 
 .card:hover {
-        height: 520px;
+        height: 510px;
 
 }
 
@@ -78,7 +78,7 @@ body {
         text-align: center;
         width: 100%;
         transition: all 0.3s ease;
-        transform: translateY(250px);
+        transform: translateY(270px);
         font-weight: 700;
 }
 
@@ -115,7 +115,7 @@ h2{
                 height: 500px;
         }
         .content .details{
-                transform: translateY(230px);
+                transform: translateY(255px);
         }
         h2 {
                 padding-bottom: 6px;
