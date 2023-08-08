@@ -30,7 +30,7 @@ body {
 }
 
 .card:hover {
-        height: 485px;
+        height: 500px;
 
 }
 
@@ -103,14 +103,16 @@ body {
         .card {
                 width: 300px;
         }
-
+        .card:hover{
+                height: 500px;
+        }
         h2 {
                 padding-bottom: 6px;
                 font-size: 1.3rem;
         }
 
         .content .details .profile>p {
-                font-size: 1rem;
+                font-size: .8rem;
         }
 
         .card:hover .content .details {
@@ -127,7 +129,7 @@ body {
         }
 
         .content .details h3 {
-                font-size: 1.2rem;
+                font-size: 1rem;
                 padding-top: 40px;
                 padding-bottom: 20px;
         }
@@ -141,7 +143,7 @@ body {
         }
 
         ul li {
-                font-size: 1rem;
+                font-size: .8rem;
         }
 
         .links>.logos {
